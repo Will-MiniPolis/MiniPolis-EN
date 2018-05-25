@@ -16,7 +16,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `!commands`){
-    message.channel.send("```md\n# BOT commands: \n\n• !play (Use this command to play MiniPólis) \n• Command 2 (Coming soon) \n• Command 3 (Coming soon) \n```");
+    message.channel.send("```md\n# BOT commands: \n\n• !play (Use this command to play MiniPólis) \n• !info (BOT information) \n• Command 3 (Coming soon) \n```");
   }
 
   if (cmd === `!play`){
