@@ -16,11 +16,11 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `!commands`){
-    message.channel.send("```html\n# Commands:\n- !play (Use this command to play MiniPólis)\n- Command 2\n- Command 3\n```");
+    message.channel.send("```md\n# BOT Commands: \n\n• !play (Use this command to play MiniPólis) \n• Command 2 (Coming soon) \n• Command 3 (Coming soon) \n```");
   }
 
   if (cmd === `!play`){
-    message.channel.send("```To test the version ALPHA of MiniPólis just go to our website: \n--> https://ALPHA.MiniPolis.com.br <--```");
+    message.channel.send("```md\n# Play MiniPólis: \n\n To test the version ALPHA of MiniPólis just go to our website: \n• https://ALPHA.MiniPolis.com.br/ \n```");
   }
 });
 
