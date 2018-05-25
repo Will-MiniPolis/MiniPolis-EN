@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`-----||-----||-----||----- \n BOT ATIVADO COM SUCESSO! \n-----||-----||-----||-----`);
-  bot.user.setActivity(`!COMANDOS - MiniPólis`);
+  bot.user.setActivity(`!COMMANDS - MiniPólis`);
 });
 
 bot.on("message", async message => {
@@ -15,11 +15,11 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `!comandos`){
+  if (cmd === `!commands`){
     message.channel.send("```md\n# BOT commands: \n\n• !play (Use this command to play MiniPólis) \n• Command 2 (Coming soon) \n• Command 3 (Coming soon) \n```");
   }
 
-  if (cmd === `!jogar`){
+  if (cmd === `!play`){
     message.channel.send("```md\n# Play MiniPólis: \n\nTo test the ALPHA version of the MiniPólis just go to our website: \n• ALPHA.MiniPolis.com.br \n```");
   }
 
