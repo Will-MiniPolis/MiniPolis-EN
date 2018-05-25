@@ -28,15 +28,15 @@ if (cmd === `!info`){
     url: "https://www.facebook.com/Will.MiniPolis",
     fields: [{
         name: "Developer:                                                                                                                   Version:",
-        value: "Will Ajudante-MP                                                  1.0.0"
+        value: "Will Ajudante-MP                                                1.0.0"
       },
       {
-        name: "Update:                                                                                                                               Name of BOT:",
-        value: "25/05/2018                                                              Moderator"
+        name: "Update:                                                                                                                                           Name of BOT:",
+        value: "25/05/2018                                                          Moderator"
       },
       {
         name: "Language:                                                                                                                      Owner:",
-        value: "English                                                                               [www.MiniPolis.com.br](https://www.minipolis.com.br/)"
+        value: "English                                                                             [www.MiniPolis.com.br](https://www.minipolis.com.br/)"
       },
     ],
     footer: {
