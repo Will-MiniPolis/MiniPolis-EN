@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`-----||-----||-----||----- \n BOT ATIVADO COM SUCESSO! \n-----||-----||-----||-----`);
-  bot.user.setActivity(`!COMMANDS`);
+  bot.user.setActivity(`!COMMANDS - MiniPólis`);
 });
 
 bot.on("message", async message => {
