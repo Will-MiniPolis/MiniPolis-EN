@@ -41,7 +41,7 @@ if (cmd === `!info`){
     ],
     footer: {
       icon_url: bot.user.avatarURL,
-      text: "© MiniPólis - All rights reserved. | 2018"
+      text: "© MiniPólis | 2018 - All rights reserved."
     }
   }})
 }
