@@ -47,6 +47,26 @@ if (cmd === `!info`){
 }
 
 
+if (cmd === `!helpers`){
+   message.channel.send("```md\n# MiniPólis helpers: \n\n• No member at the moment. \n```");
+  }
+
+
+if (cmd === `!team`){
+   message.channel.send("```md\n# MiniPólis team: \n\n• No member at the moment. \n```");
+  }
+
+
+if (cmd === `!moderators`){
+   message.channel.send("```md\n# MiniPólis moderators: \n\n• No member at the moment. \n```");
+  }
+
+
+if (cmd === `!administrators`){
+   message.channel.send("```md\n# MiniPólis administrators: \n\n• Jürgen Admin-MP \n```");
+  }
+
+
 });
 
 bot.login(process.env.TOKEN);
