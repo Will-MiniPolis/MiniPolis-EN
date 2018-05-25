@@ -1,8 +1,9 @@
 {
   "name": "Moderator",
-  "author": "Will Ajudante-MP",
-  "version": "1.0",
+  "version": "1.0.0",
+  "description": "MiniPólis",
   "main": "index.js",
+  "author": "Will Ajudante-MP",
   "dependencies": {
     "discord.js": "^11.3.2"
   }
