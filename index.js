@@ -35,13 +35,13 @@ if (cmd === `!info`){
         value: "25/05/2018                                                              Moderator"
       },
       {
-        name: "Language:                                                                                                                  Owner:",
+        name: "Language:                                                                                                                      Owner:",
         value: "English                                                                               [www.MiniPolis.com.br](https://www.minipolis.com.br/)"
       },
     ],
     footer: {
       icon_url: bot.user.avatarURL,
-      text: "© MiniPólis - All rights reserved | 2018"
+      text: "© MiniPólis - All rights reserved. | 2018"
     }
   }})
 }
