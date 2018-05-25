@@ -23,7 +23,7 @@ bot.on("message", async message => {
     message.channel.send("```md\n# Play MiniPólis: \n\nTo test the ALPHA version of the MiniPólis just go to our website: \n• ALPHA.MiniPolis.com.br \n```");
   }
 
-  if (cmd === `!info`){
+  if (cmd === `!infa`){
     message.channel.send("```md\n# BOT - MiniPólis: \n\n• Developer: Will Ajudante-MP \n• Version: 1.0.0 \n• Update: 25/05/2018 \n• Name of BOT: Moderator \n• Language: English \n• Owner: MiniPolis.com.br \n```");
   }
 });
