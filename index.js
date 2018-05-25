@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`-----||-----||-----||----- \n BOT ATIVADO COM SUCESSO! \n-----||-----||-----||-----`);
-  bot.user.setActivity(`!COMMANDS - MiniPólis`);
+  bot.user.setActivity(`!COMANDOS - MiniPólis`);
 });
 
 bot.on("message", async message => {
@@ -15,12 +15,16 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `!commands`){
-    message.channel.send("```md\n# BOT Commands: \n\n• !play (Use this command to play MiniPólis) \n• Command 2 (Coming soon) \n• Command 3 (Coming soon) \n```");
+  if (cmd === `!comandos`){
+    message.channel.send("```md\n# BOT commands: \n\n• !play (Use this command to play MiniPólis) \n• Command 2 (Coming soon) \n• Command 3 (Coming soon) \n```");
   }
 
-  if (cmd === `!play`){
-    message.channel.send("```md\n# Play MiniPólis: \n\n To test the version ALPHA of MiniPólis just go to our website: \n• https://ALPHA.MiniPolis.com.br/ \n```");
+  if (cmd === `!jogar`){
+    message.channel.send("```md\n# Play MiniPólis: \n\nTo test the ALPHA version of the MiniPólis just go to our website: \n• ALPHA.MiniPolis.com.br \n```");
+  }
+
+  if (cmd === `!info`){
+    message.channel.send("```md\n# BOT - MiniPólis: \n\n• Developer: Will Ajudante-MP \n• Version: 1.0.0 \n• Update: 25/05/2018 \n• Name of BOT: Moderator \n• Language: English \n• Owner: MiniPolis.com.br \n```");
   }
 });
 
