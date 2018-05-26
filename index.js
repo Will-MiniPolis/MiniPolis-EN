@@ -47,6 +47,27 @@ if (cmd === `!info`){
 }
 
 
+if (cmd === `!play`){message.channel.send({embed: {
+    color: 0x00ff40,
+    author: {
+      name: bot.user.username,
+      icon_url: bot.user.avatarURL
+    },
+    title: ":video_game:   Play MiniPólis   :video_game:",
+    url: "https://MiniPolis.com.br/",
+    description: "\u200b",
+    fields: [{
+        name: "To play the ALPHA version of the MiniPólis:   ",
+        value: "[ALPHA.MiniPolis.com.br](https://Alpha.MiniPolis.com.br/)"
+    },
+  ],
+    footer: {
+      icon_url: bot.user.avatarURL,
+      text: "© MiniPólis | 2018 - All rights reserved."
+    },
+  } } )
+}
+
 if (cmd === `!helpers`){
    message.channel.send("```md\n# MiniPólis helpers: \n\n• No member at the moment. \n```");
   }
